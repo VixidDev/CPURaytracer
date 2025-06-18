@@ -2,6 +2,14 @@
 
 University assignment to implement a raytracer using the CPU by manually calculating each ray per pixel and recursively calculating any shadows, reflection and refraction through the scene, also implements Monte Carlo sampling with variable anti aliasing sampling to reduce noise, along with russian roulette to randomly terminate some secondary rays. Uses OpenGL to render the base scene on the left side and also to render the output of the raytracer on the right as the image generates.
 
+### Examples
+
+| Scene | Settings | Result |
+|--- |--- |--- |
+| Cornell box | Phong, Shadows, Monte Carlo (10x anti alias samples) | <img width="480" alt="10x_aa" src="https://github.com/user-attachments/assets/f4b936cc-28a8-4619-b787-479b938d9bdc" /> |
+| Cornell box | Phong, Shadows, Reflection, Refraction, Fresnel | <img width="480" alt="refraction_w_fresnel" src="https://github.com/user-attachments/assets/02fb00e1-66c4-4f48-a384-bde4d6450ca8" /> |
+| Cornell Suzanne | Phong, Shadows, Reflection, Refraction | <img width="480" alt="suzanne_reflection_refraction" src="https://github.com/user-attachments/assets/6c3e53c3-72dd-429b-8879-e484f77803c9" /> |
+
 #### Keybinds
 
 - `1` - Enable interpolation rendering
