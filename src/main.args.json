@@ -1,0 +1,18 @@
+{
+  "FileVersion": 2,
+  "Id": "6a7f9a7c-56b6-9b0d-ffa2-8110ebb8170f",
+  "Items": [
+    {
+      "Id": "a2ef6c4b-3f77-45db-a0b7-5dde06e6ce92",
+      "Command": "objects/cornell_box.obj objects/cornell_box.mtl"
+    },
+    {
+      "Id": "4187c785-3976-44d4-a824-91869e40ddd5",
+      "Command": "objects/cornell_box222.obj objects/cornell_box222.mtl"
+    },
+    {
+      "Id": "ab87db75-d4f6-4b69-b656-cf1e15da7808",
+      "Command": "objects/cornellbox_suzanne.obj objects/cornellbox_suzanne.mtl"
+    }
+  ]
+}
